@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>YtDownloader</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <p>Input your youtube link:</p>
+    <form method="POST">
+      <input type="string" name="link" />
+      <button type="submit">Submit</button>
+      <p>In case your link is a playlist. Do you want to download:</p>
+      <input type="radio" name="playlist" value="--no-playlist" /> Single file
+      <input type="radio" name="playlist" value="--yes-playlist" checked /> Entire Playlist
+    </form>
+  </body>
+</html>
